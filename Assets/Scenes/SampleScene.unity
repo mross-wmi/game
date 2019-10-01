@@ -262,6 +262,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+--- !u!1 &579960797 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0,
+    type: 3}
+  m_PrefabInstance: {fileID: 579960796}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &579960798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 579960797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 445987523ba010d46bc884c05370481c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthTexture: {fileID: 0}
+  armourTexture: {fileID: 0}
+  staminaTexture: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -335,7 +356,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 2.751e-42, y: 1.02e-43, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 2.549e-42, y: 1.02e-43, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -436,6 +457,57 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1185604005 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100002, guid: 5e9e851c0e142814dac026a256ba2ac0,
+    type: 3}
+  m_PrefabInstance: {fileID: 579960796}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1185604007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1185604005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 445987523ba010d46bc884c05370481c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthTexture: {fileID: 2800000, guid: 18ed3cc8defc755418e3c46da31e8d62, type: 3}
+  armourTexture: {fileID: 2800000, guid: e6efcda992b256b40a6457c211524595, type: 3}
+  staminaTexture: {fileID: 2800000, guid: 8e06cefa7f3375543b491ef64e183d6a, type: 3}
+--- !u!114 &1185604008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1185604005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 445987523ba010d46bc884c05370481c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthTexture: {fileID: 2800000, guid: 18ed3cc8defc755418e3c46da31e8d62, type: 3}
+  armourTexture: {fileID: 2800000, guid: e6efcda992b256b40a6457c211524595, type: 3}
+  staminaTexture: {fileID: 2800000, guid: 8e06cefa7f3375543b491ef64e183d6a, type: 3}
+--- !u!114 &1185604009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1185604005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 445987523ba010d46bc884c05370481c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthTexture: {fileID: 2800000, guid: 18ed3cc8defc755418e3c46da31e8d62, type: 3}
+  armourTexture: {fileID: 2800000, guid: e6efcda992b256b40a6457c211524595, type: 3}
+  staminaTexture: {fileID: 2800000, guid: 8e06cefa7f3375543b491ef64e183d6a, type: 3}
 --- !u!1 &1314609654
 GameObject:
   m_ObjectHideFlags: 0
