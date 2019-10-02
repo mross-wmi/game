@@ -283,6 +283,131 @@ MonoBehaviour:
   healthTexture: {fileID: 0}
   armourTexture: {fileID: 0}
   staminaTexture: {fileID: 0}
+  walkSpeed: 10
+  runSpeed: 20
+  hitTexture: {fileID: 0}
+--- !u!114 &579960799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 579960797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05ec5cf00ca181d45a42ba1870e148c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsWalking: 0
+  m_WalkSpeed: 0
+  m_RunSpeed: 0
+  m_RunstepLenghten: 0
+  m_JumpSpeed: 0
+  m_StickToGroundForce: 0
+  m_GravityMultiplier: 0
+  m_MouseLook:
+    XSensitivity: 2
+    YSensitivity: 2
+    clampVerticalRotation: 1
+    MinimumX: -90
+    MaximumX: 90
+    smooth: 0
+    smoothTime: 5
+    lockCursor: 1
+  m_UseFovKick: 0
+  m_FovKick:
+    Camera: {fileID: 0}
+    originalFov: 0
+    FOVIncrease: 3
+    TimeToIncrease: 1
+    TimeToDecrease: 1
+    IncreaseCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  m_UseHeadBob: 0
+  m_HeadBob:
+    HorizontalBobRange: 0.33
+    VerticalBobRange: 0.33
+    Bobcurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1.5
+        value: -1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 2
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    VerticaltoHorizontalRatio: 1
+  m_JumpBob:
+    BobDuration: 0
+    BobAmount: 0
+  m_StepInterval: 0
+  m_FootstepSounds: []
+  m_JumpSound: {fileID: 0}
+  m_LandSound: {fileID: 0}
+--- !u!114 &579960800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 579960797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 445987523ba010d46bc884c05370481c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthTexture: {fileID: 2800000, guid: 18ed3cc8defc755418e3c46da31e8d62, type: 3}
+  armourTexture: {fileID: 2800000, guid: e6efcda992b256b40a6457c211524595, type: 3}
+  staminaTexture: {fileID: 2800000, guid: 8e06cefa7f3375543b491ef64e183d6a, type: 3}
+  walkSpeed: 10
+  runSpeed: 20
+  hitTexture: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -356,7 +481,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 2.549e-42, y: 1.02e-43, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 4e-45}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -478,6 +603,9 @@ MonoBehaviour:
   healthTexture: {fileID: 2800000, guid: 18ed3cc8defc755418e3c46da31e8d62, type: 3}
   armourTexture: {fileID: 2800000, guid: e6efcda992b256b40a6457c211524595, type: 3}
   staminaTexture: {fileID: 2800000, guid: 8e06cefa7f3375543b491ef64e183d6a, type: 3}
+  walkSpeed: 10
+  runSpeed: 20
+  hitTexture: {fileID: 0}
 --- !u!114 &1185604008
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -493,6 +621,9 @@ MonoBehaviour:
   healthTexture: {fileID: 2800000, guid: 18ed3cc8defc755418e3c46da31e8d62, type: 3}
   armourTexture: {fileID: 2800000, guid: e6efcda992b256b40a6457c211524595, type: 3}
   staminaTexture: {fileID: 2800000, guid: 8e06cefa7f3375543b491ef64e183d6a, type: 3}
+  walkSpeed: 10
+  runSpeed: 20
+  hitTexture: {fileID: 0}
 --- !u!114 &1185604009
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -508,6 +639,9 @@ MonoBehaviour:
   healthTexture: {fileID: 2800000, guid: 18ed3cc8defc755418e3c46da31e8d62, type: 3}
   armourTexture: {fileID: 2800000, guid: e6efcda992b256b40a6457c211524595, type: 3}
   staminaTexture: {fileID: 2800000, guid: 8e06cefa7f3375543b491ef64e183d6a, type: 3}
+  walkSpeed: 10
+  runSpeed: 20
+  hitTexture: {fileID: 0}
 --- !u!1 &1314609654
 GameObject:
   m_ObjectHideFlags: 0
